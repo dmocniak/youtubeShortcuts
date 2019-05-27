@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    margin: 0.2vw;
+    border: 3px solid black;
+    border-radius: 2vw;
+    width: 49%;
+    height: 30vw;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Anton', sans-serif;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    box-shadow: .5vw .5vw #888888;
+
+    overflow: hidden;
+}
+
+#colorsofthewind {
+    background-image: url("https://media.giphy.com/media/OVcXGo8uj6DSg/giphy.gif");
+    background-size: cover;
+}
+
+#babyshark {
+    background-image: url("https://thumbs.gfycat.com/FlawedDrearyDungbeetle-size_restricted.gif");
+    background-size: cover;
+}
+
+#hugme {
+    background-image: url("https://i.ytimg.com/vi/bZbjjuo0ltM/maxresdefault.jpg");
+    background-size: cover;
+}
+#ppap {
+    background-image: url("https://media.giphy.com/media/z01AlvAzhV7ag/giphy.gif");
+    background-size: cover;
+}
+#opendoor {
+    background-image: url("https://static.playbill.com/ee/dd/1863716d45a1b2f1838530d6e53e/love-is-an-open-door.%204.gif");
+    background-size: cover;
+    background-position: 56vw;
+}
+#shakeitoff {
+    background-image: url("https://media.giphy.com/media/KDHkHNpM3Eht6/giphy.gif");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
